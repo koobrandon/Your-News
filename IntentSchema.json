@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "intent": "AddTeamIntent",
+      "slots": [
+        {
+          "name": "Team",
+          "type": "LIST_OF_TEAMS"
+        }
+      ]
+    },
+    {
+      "intent": "DeleteTeamIntent",
+      "slots": [
+        {
+          "name": "Team",
+          "type": "LIST_OF_TEAMS"
+        }
+      ]
+    },
+    {
+      "intent": "LatestScoreOnUserTeamsIntent"
+    },
+    {
+      "intent": "LatestScoreOnTeamIntent",
+      "slots": [
+        {
+          "name": "Team",
+          "type": "LIST_OF_TEAMS"
+        }
+      ]
+    },
+    {
+      "intent": "LatestNewsOnUserTeamsIntent"
+    },
+    {
+      "intent": "LatestNewsOnTeamIntent",
+      "slots": [
+        {
+          "name": "Team",
+          "type": "LIST_OF_TEAMS"
+        }
+      ]
+    },
+    {
+      "intent": "NextFixtureOnUserTeamsIntent"
+    },
+    {
+      "intent": "NextFixtureOnTeamIntent",
+      "slots": [
+        {
+          "name": "Team",
+          "type": "LIST_OF_TEAMS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
